@@ -4,7 +4,31 @@ const imageSchema = new mongoose.Schema({
   title: String,
   category: {
     type: String,
-    enum: ['Pixel', 'Gubhly', 'Realistic', 'Anime', 'Disney Character'],
+    enum: [
+  'Pixel',
+  'Gubhly',
+  'Car',
+  'Cartoon',
+  'Cute',
+  'Asthetic',
+  'Motivation',
+  'Buildings',
+  'Posters',
+  'Wallpapers',
+  'Fashions',
+  'Technology',
+  'Super Hero',
+  'Gadgets',
+  'Computer',
+  'Mobile phones',
+  'Food',
+  'Clothes',
+  'Anime style',
+  'Realistic',
+  'Anime',
+  'Disney Character'
+]
+,
     required: true
   },
   description: String,
