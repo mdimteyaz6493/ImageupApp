@@ -26,7 +26,11 @@ const imageSchema = new mongoose.Schema({
   'Anime style',
   'Realistic',
   'Anime',
-  'Disney Character'
+  'Disney Character',
+  'Animals',
+  'Logo and Icon',
+  'UI design',
+  'Scenery'
 ]
 ,
     required: true
